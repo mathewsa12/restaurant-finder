@@ -1,0 +1,77 @@
+.red{
+    background-color:#e3301e !important;
+}
+
+
+*{
+/*    outline : 1px solid red;*/
+}
+body{
+    font-size: 20px;
+}
+
+header{
+    height:100vh;
+    background:black;
+}
+.fullscreen{
+    height: 100%;
+    justify-content: center;
+}
+/*------------NAV BAR --------------------------*/
+nav{
+    position: fixed;
+    top:0px;
+    z-index:9999;
+    padding-left:20px;
+    padding-right:40px;
+    background-color: rgba(0, 0, 0, 0.67) !important;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    height: auto !important;
+}
+
+nav .btn{
+    font-size:80%;
+}
+
+/*--------------END OF NAV BAR -----------------*/
+/*-------------HEADER SECTION-----------------*/
+header img{
+    position: absolute;
+    top:0px;
+    height:100%;
+    width:100%;
+    opacity: .7;
+    z-index: 1;
+    transition: all .4s;
+    
+}
+.fullscreen>*{
+    z-index: 100;
+}
+
+header .card{
+    background:rgba(255, 255, 255, 0.78);
+    padding-bottom: 50px;
+}
+header button{
+    margin-top:20px;
+}
+header .heading{
+    margin-bottom: 50px;
+}
+header .heading h3{
+    text-transform: uppercase;
+    letter-spacing:1px;
+    word-spacing: 3px;
+    font-weight: 300;
+    font-size: 160%;
+}
+.search-query input{
+    font-size : 160%;
+    color : #7c7c7c;
+}
+.view-all-btn{
+    margin: 70px 0 0px 0;
+}
