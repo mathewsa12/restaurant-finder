@@ -1,4 +1,4 @@
-/* BASE COLOR : #88291f */
+/* BASE COLOR : #e3301e */
 
 
 
@@ -9,7 +9,7 @@
     color:black !important;
 }
 .tabs .indicator{
-    background-color:#88291f ;
+    background-color:#e3301e ;
 }
 
 input:not([type]):focus:not([readonly]),
@@ -25,8 +25,8 @@ input[type=tel]:focus:not([readonly]),
 input[type=number]:focus:not([readonly]),
 input[type=search]:focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid #88291f;
-  box-shadow: 0 1px 0 0 #88291f;
+  border-bottom: 1px solid #e3301e;
+  box-shadow: 0 1px 0 0 #e3301e;
 }
 
 input:not([type]):focus:not([readonly]) + label,
@@ -52,15 +52,15 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .picker__date-display{
-    background-color:#88291f;
+    background-color:#e3301e;
 }
 
 .picker__day.picker__day--today{
-    color:#88291f;
+    color:#e3301e;
 }
 
 .picker__close, .picker__today{
-    color:#88291f;
+    color:#e3301e;
 }
 
 .picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected{
@@ -68,7 +68,7 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 .switch label input[type=checkbox]:checked+.lever{
-    background-color:#88291f;
+    background-color:#e3301e;
 }
 
 .switch label input[type=checkbox]:checked+.lever:after{
@@ -76,8 +76,8 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 }
 
 [type="checkbox"]:checked+label:before{
-    border-right: 2px solid #88291f ;
-    border-bottom: 2px solid #88291f ;
+    border-right: 2px solid #e3301e ;
+    border-bottom: 2px solid #e3301e ;
 }
 
 .material-tooltip {
@@ -94,6 +94,6 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 
 .dropdown-content li>a, .dropdown-content li>span{
 
-    color: #88291f;
+    color: #e3301e;
 }
 /*---------------------------------------------------------------*/

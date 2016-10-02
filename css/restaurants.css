@@ -1,7 +1,9 @@
 .red{
     background-color:#e3301e !important;
 }
-
+.black-btn{
+    background-color : rgba(0, 0, 0, 0.9) !important;
+}
 
 *{
 /*    outline : 1px solid red;*/
@@ -27,6 +29,18 @@ nav .btn{
 
 
 /*--------------END OF NAV BAR -----------------*/
+/*--------------LOGIN POPUP-----------------------*/
+.modal.open{
+    height : 500px !important;
+}
+#login{
+    margin-top : 50px  !important;
+}
+.tabs .tab{
+    background-color : #fafafa !important;
+}
+
+/*--------------END OF LOGIN POPUP------------------*/
 
 /*-------SIDEBAR FOR FILTERS------------*/
 .sidebar {
